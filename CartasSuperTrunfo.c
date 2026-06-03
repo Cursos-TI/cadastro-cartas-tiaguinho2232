@@ -96,57 +96,7 @@ int main() {
   printf("Área: %.2lf km²\n", area2);
   printf("PIB: %.2lf\n", pib2);
   printf("Pontos Turísticos: %d\n", pontos_turisticos2);
-// ==========================================
-  // Área para entrada de dados - CARTA 2
-  // ==========================================
-  printf("\n=== CADASTRO DA CARTA 2 ===\n");
-
-  printf("Digite a letra do Estado (A-H): ");
-  scanf(" %c", &estado2);
-
-  printf("Digite o Código da Carta (Ex: B02): ");
-  scanf("%3s", codigo_carta2);
-
-  printf("Digite o Nome da Cidade: ");
-  scanf(" %[^\n]s", nome_cidade2); 
-
-  printf("Digite a População: ");
-  scanf("%d", &populacao2);
-
-  printf("Digite a Área (em km²): ");
-  scanf("%lf", &area2);
-
-  printf("Digite o PIB: ");
-  scanf("%lf", &pib2);
-
-  printf("Digite a quantidade de Pontos Turísticos: ");
-  scanf("%d", &pontos_turisticos2);
-
-  // ==========================================
-  // Área para exibição dos dados da cidade
-  // ==========================================
   
-  // Exibição Carta 1
-  printf("\n--- CARTA 1 CADASTRADA ---\n");
-  printf("Estado: %c\n", estado1);
-  printf("Código da Carta: %s\n", codigo_carta1);
-  printf("Nome da Cidade: %s\n", nome_cidade1);
-  printf("População: %d\n", populacao1);
-  printf("Área: %.2lf km²\n", area1);
-  printf("PIB: %.2lf\n", pib1);
-  printf("Pontos Turísticos: %d\n", pontos_turisticos1);
-
-  // Exibição Carta 2
-  printf("\n--- CARTA 2 CADASTRADA ---\n");
-  printf("Estado: %c\n", estado2);
-  printf("Código da Carta: %s\n", codigo_carta2);
-  printf("Nome da Cidade: %s\n", nome_cidade2);
-  printf("População: %d\n", populacao2);
-  printf("Área: %.2lf km²\n", area2);
-  printf("PIB: %.2lf\n", pib2);
-
-  printf("Pontos Turísticos: %d\n", pontos_turisticos2);
-
 // ==========================================
 // calculo de densidade populacional
   double densidade1 = populacao1 / area1;
